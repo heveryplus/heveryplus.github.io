@@ -7,7 +7,7 @@
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 19px;
+  font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -20,16 +20,19 @@
 .icon-aui-icon-weichat:before {
   content: "\e632";
   color: #26be2d;
+  font-size: 19px;
 }
 
 .icon-QQ:before {
   content: "\e882";
   color: #00a6fb;
+  font-size: 19px;
 }
 
 .icon-icon_bilibili:before {
   content: "\e600";
   color: #f97298;
+  font-size: 19px;
 }
 .icon-csdn:before {
   content: "\e601";
