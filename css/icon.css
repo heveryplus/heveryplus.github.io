@@ -7,10 +7,11 @@
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 16px;
+  font-size: 28px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
 }
 
 .icon-weibo:before {
@@ -20,7 +21,7 @@
 .icon-aui-icon-weichat:before {
   content: "\e632";
   color: #26be2d;
-  font-size: 19px;
+  font-size: 32px;
 }
 
 .icon-QQ:before {
@@ -37,5 +38,5 @@
 .icon-csdn:before {
   content: "\e601";
   color: #cc0015;
-  font-size: 17px;
+  font-size: 16px;
 }
