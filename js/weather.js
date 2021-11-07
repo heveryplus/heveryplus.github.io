@@ -1,0 +1,23 @@
+WIDGET = {
+  'CONFIG': {
+    'modules': '01234',
+    'background': '5',
+    'tmpColor': 'FFFFFF',
+    'tmpSize': '16',
+    'cityColor': 'FFFFFF',
+    'citySize': '16',
+    'aqiColor': 'FFFFFF',
+    'aqiSize': '16',
+    'weatherIconSize': '24',
+    'alertIconSize': '18',
+    'padding': '0px 0px 0px 0px',
+    'shadow': '0',
+    'language': 'auto',
+    'fixed': 'true',
+    'vertical': 'center',
+    'horizontal': 'center',
+    'left': '10',
+    'top': '10',
+    'key': '54a5cc9ab8a44cd3bfde2b09e6eccb62',
+  },
+};
