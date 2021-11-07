@@ -81,3 +81,6 @@ a#site-name {
 #nav #site-name {
   display: none;
 }
+#aside-content img{
+  transition: none;
+}
