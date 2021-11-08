@@ -1,7 +1,8 @@
 /*修改主页字体*/
 @font-face {
   font-family: 'arzhu';
-  src: url('https://cdn.jsdelivr.net/gh/heveryplus/cdn/font/fangyuanSJ.ttf'); /* 修改成你的字体 */
+  /*src: url('https://cdn.jsdelivr.net/gh/heveryplus/cdn/font/fangyuanSJ.ttf'); !* 修改成你的字体 *!*/
+  src: url('https://cdn.jsdelivr.net/gh/lynnfgsga/lynnfgsga.github.io@1.3.7/Monoton-Regular-2.ttf'); /* 修改成你的字体 */
   font-display: swap
 }
 
@@ -9,13 +10,13 @@ h1#site-title {
   font-family: arzhu !important
 }
 
-span#subtitle {
-  font-family: arzhu !important
-}
+/*span#subtitle {*/
+/*  font-family: arzhu !important*/
+/*}*/
 
-a#site-name {
-  font-family: arzhu, serif !important
-}
+/*a#site-name {*/
+/*  font-family: arzhu, serif !important*/
+/*}*/
 
 /* 更换字体*/
 @font-face {
@@ -72,7 +73,7 @@ body,
 }
 
 [data-theme='dark'] .site-card-group .site-card .info .desc {
-  color: rgba(255, 255, 255, .3) !important;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .site-card-group .info .desc {
@@ -134,14 +135,18 @@ div#category {
 #footer::before{
   background: transparent !important;
 }
-/*!*夜间模式伪类遮罩层透明*!*/
-/*[data-theme='dark'] #footer::before{*/
-/*  background: transparent !important;*/
-/*}*/
-/*!*夜间模式透明度修改*!*/
-/*[data-theme="dark"] #page-header::before {*/
-/*  background: transparent !important;*/
-/*}*/
+/*夜间模式伪类遮罩层透明*/
+[data-theme='dark'] #footer::before{
+  background: transparent !important;
+}
+/*夜间模式透明度修改*/
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+[data-theme="dark"] div#page {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
 
 [data-theme="dark"] #nav {
   background: rgba(0, 0, 0, 0.5) !important;
