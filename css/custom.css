@@ -99,19 +99,25 @@ div#category {
 }
 
 /* 页脚透明 */
-#footer::before{
+#footer::before {
   background: transparent !important;
 }
+
 /*夜间模式伪类遮罩层透明*/
-[data-theme='dark'] #footer::before{
+[data-theme='dark'] #footer::before {
   background: transparent !important;
 }
+
 /*夜间模式透明度修改*/
 [data-theme="dark"] #page-header::before {
   background: transparent !important;
 }
 
 [data-theme="dark"] div#page {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+[data-theme="dark"] #recent-posts > .recent-post-item {
   background: rgba(0, 0, 0, 0.5) !important;
 }
 
