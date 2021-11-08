@@ -138,7 +138,7 @@ div#category {
   background: rgba(0, 0, 0, 0.5) !important;
 }
 /*归档页*/
-[data-theme="dark"] div#envelope  {
+[data-theme="dark"] div#envelope  form{
   background: rgba(0, 0, 0, 0.5) !important;
 }
 
