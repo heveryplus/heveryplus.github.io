@@ -141,6 +141,7 @@ figure.highlight pre .addition {
 /* 页脚蝴蝶振翅动画 */
 .copyright svg {
   animation: butterfly 1s linear infinite alternate;
+  vertical-align: middle;
 }
 
 @keyframes butterfly {
