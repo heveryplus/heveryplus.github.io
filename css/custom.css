@@ -5,7 +5,7 @@
   font-display: swap
 }
 
-#page-header h1#site-title {
+#page-header #site-info h1#site-title {
   font-family: arzhu, serif !important;
   font-size: 6em;
   letter-spacing: 0.08em;
@@ -117,6 +117,7 @@ div#category {
   background: rgba(0, 0, 0, 0.5) !important;
 }
 
+/*首页文章列表*/
 [data-theme="dark"] #recent-posts > .recent-post-item {
   background: rgba(0, 0, 0, 0.5) !important;
 }
@@ -132,6 +133,11 @@ div#category {
 [data-theme="dark"] div#post {
   background: rgba(0, 0, 0, 0.5) !important;
 }
+/*归档页*/
+[data-theme="dark"] div#archive {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
 
 /*去除左上角标题*/
 #nav #site-name {
