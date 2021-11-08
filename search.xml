@@ -4,33 +4,6 @@
   
     
     <entry>
-      <title>JDK11 线程池源码分析 （下）</title>
-      <link href="/posts/24631506/"/>
-      <url>/posts/24631506/</url>
-      
-        <content type="html"><![CDATA[<p>#六.这些面试问题会答了吗？<br>##1.Java线程池是如何保证核心线程不被销毁的？<br>##2.Java线程池中多余的线程是如何回收的？<br>##3.ThreadPoolExecutor中创建的线程如何被复用的？<br>##4.线程池如何按照core、max、queue的执行循序去执行？</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> ☕️Java </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> JUC </tag>
-            
-            <tag> 线程池 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>JDK11 线程池源码分析（上）</title>
       <link href="/posts/24631506/"/>
       <url>/posts/24631506/</url>
@@ -40,7 +13,7 @@
       
       <categories>
           
-          <category> :☕️java </category>
+          <category> ☕️Java </category>
           
       </categories>
       
@@ -85,6 +58,33 @@
     
     
     <entry>
+      <title>JDK11 线程池源码分析 （下）</title>
+      <link href="/posts/24631506/"/>
+      <url>/posts/24631506/</url>
+      
+        <content type="html"><![CDATA[<p>#六.这些面试问题会答了吗？<br>##1.Java线程池是如何保证核心线程不被销毁的？<br>##2.Java线程池中多余的线程是如何回收的？<br>##3.ThreadPoolExecutor中创建的线程如何被复用的？<br>##4.线程池如何按照core、max、queue的执行循序去执行？</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ☕️Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JUC </tag>
+            
+            <tag> 线程池 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CompletionService 源码分析</title>
       <link href="/posts/1007916050/"/>
       <url>/posts/1007916050/</url>
@@ -94,7 +94,7 @@
       
       <categories>
           
-          <category> Java </category>
+          <category> ☕️Java </category>
           
       </categories>
       
