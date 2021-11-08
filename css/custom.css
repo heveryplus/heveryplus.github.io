@@ -91,11 +91,6 @@ div#category {
   background: transparent !important;
 }
 
-#page-header h1#site-title {
-  font-family: arzhu, serif !important;
-  font-size: 54px;
-}
-
 /* 页脚透明 */
 #footer::before{
   background: transparent !important;
