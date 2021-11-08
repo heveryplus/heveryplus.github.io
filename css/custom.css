@@ -81,6 +81,7 @@ a#site-name {
 #nav #site-name {
   display: none;
 }
+/*禁止头像旋转*/
 #aside-content img{
   transition: none;
 }
