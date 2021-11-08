@@ -137,6 +137,10 @@ div#category {
 [data-theme="dark"] div#archive {
   background: rgba(0, 0, 0, 0.5) !important;
 }
+/*归档页*/
+[data-theme="dark"] div#envelope  {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
 
 
 /*去除左上角标题*/
