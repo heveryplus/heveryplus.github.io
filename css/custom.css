@@ -7,7 +7,9 @@
 }
 
 h1#site-title {
-  font-family: arzhu !important
+  font-family: arzhu !important;
+  font-size: 84px;
+
 }
 
 /*span#subtitle {*/
