@@ -130,6 +130,9 @@ div#category {
   background: transparent !important;
 }
 
+#page-header.post-bg:before {
+  background-color: transparent!important;
+}
 /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
 #page-header.post-bg:before {
   background-color: transparent !important;
@@ -146,24 +149,6 @@ div#category {
 
 [data-theme="dark"] #nav {
   background: rgba(0, 0, 0, 0.5) !important;
-}
-
-[data-theme="dark"] #aside-content .card-widget {
-  background: rgba(0, 0, 0, 0.5) !important;
-}
-
-[data-theme="dark"] div#post {
-  background: rgba(0, 0, 0, 0.5) !important;
-}
-
-/* 头图透明 */
-#page-header {
-  background: transparent !important;
-}
-
-/*页脚透明*/
-#footer {
-  background: transparent !important;
 }
 
 [data-theme="dark"] #aside-content .card-widget {
