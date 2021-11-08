@@ -7,7 +7,7 @@ for(var i = 0;i<panel.length;i++){
 function floatable (content) {
   content.addEventListener('mouseout', e => {
     content.style.transform = `perspective(300px)
-								   rotateX(0deg)
+								   FFrotateX(0deg)
 								   rotateY(0deg)
 								   rotateZ(0deg)`;
   });
