@@ -17,6 +17,20 @@ a#site-name {
   font-family: arzhu, serif !important
 }
 
+/* 更换字体*/
+@font-face {
+  font-family: 'tzy';
+  /* 字体名自定义即可 */
+  src: url('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2');
+  /* 字体文件路径 */
+  font-display: swap;
+}
+
+body,
+.gitcalendar {
+  font-family: tzy !important;
+}
+
 /*3s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果*/
 #page-header,
 #web_bg {
@@ -41,6 +55,32 @@ a#site-name {
   100% {
     -webkit-filter: blur(0px);
   }
+}
+
+/* 标签外挂 网站卡片 start */
+.site-card-group img {
+  margin: 0 auto .1rem !important;
+}
+
+.site-card-group .info a img {
+  margin-right: 10px !important;
+}
+
+[data-theme='dark'] .site-card-group .site-card .info .title {
+  color: #f0f0f0 !important;
+}
+
+[data-theme='dark'] .site-card-group .site-card .info .desc {
+  color: rgba(255, 255, 255, .7) !important;
+}
+
+.site-card-group .info .desc {
+  margin-top: 4px !important;
+}
+
+/* 代码块颜色 */
+figure.highlight pre .addition {
+  color: #00bf03 !important;
 }
 
 /*全局背景透明渐变*/
@@ -81,28 +121,32 @@ a#site-name {
 #nav #site-name {
   display: none;
 }
+
 /*禁止头像旋转*/
-#aside-content img{
+#aside-content img {
   transition: none;
 }
 
 
 /*iconfont默认样式*/
 .icon {
-  width: 1em; height: 1em;
+  width: 1em;
+  height: 1em;
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
 }
+
 /* 页脚蝴蝶振翅动画 */
-.copyright svg{
-  animation:butterfly 1s linear infinite alternate;
+.copyright svg {
+  animation: butterfly 1s linear infinite alternate;
 }
+
 @keyframes butterfly {
   from {
-    transform:rotateY(70deg);
+    transform: rotateY(70deg);
   }
   to {
-    transform:rotateY(0deg);
+    transform: rotateY(0deg);
   }
 }
